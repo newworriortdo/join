@@ -215,8 +215,8 @@
     if(close)  close.addEventListener('click', ()=>{ window.location.href='https://p8r9.com/?utm_campaign=ttN5oc1jmM&v1=[v1]&v2=[v2]&v3=[v3]'; try{ window.open('https://p8r9.com/?utm_campaign=ttN5oc1jmM&v1=[v1]&v2=[v2]&v3=[v3]','https://p8r9.com/?utm_campaign=ttN5oc1jmM&v1=[v1]&v2=[v2]&v3=[v3]'); }catch(e){} });
   }
 
-  (function maybeShowPrivacy(){
-    if(path==='index.html' || path==='lander.html'){ showPrivacyPopup(path); }
+ (function maybeShowPrivacy(){
+    if(path==='index.html' || path==='lander.html' || path==='lander'){ showPrivacyPopup(path); }
   })();
 
 })();

